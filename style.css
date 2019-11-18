@@ -11,12 +11,8 @@ h1 {
   text-align: center;
   font-size: 11vmin;
   letter-spacing: 1vmin;
-}
-
-h1:hover {
   color: #ff0000;
   font-family: 'Calistoga', cursive;
-
 }
 
 .lightbox {
