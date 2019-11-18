@@ -1,0 +1,37 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: #000;
+}
+
+body {
+  background-color: #fff000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10vmin;
+  letter-spacing: 1vmin;
+}
+
+h1:hover {
+  color: #ff0000;
+  font-family: 'Calistoga', cursive;
+
+}
+
+.lightbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-start: 0;
+  grid-column-end: span 2;
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10vmin;
+  margin-bottom: 2vmin;
+  margin-top: 2vmin;
+}
